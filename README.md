@@ -1,4 +1,11 @@
-#
+# 20210311 本週作業
+撰寫氣泡排序法（bubble-sort.cpp）
+有興趣的人追加挑戰：選擇排序法（selection-sort.cpp）
+再更進階：插入排序法（insertion-sort.cpp）
+
+## 作業參考資料
+1. [VisuAlgo：排序演算法的資料視覺化](https://visualgo.net/zh/sorting)
+2. [初學者學演算法｜排序法入門：選擇排序與插入排序法. 程式麻瓜的程式知識課（五）| Medium](https://medium.com/appworks-school/23d4bc7085ff)
 
 ---
 
