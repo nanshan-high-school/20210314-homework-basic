@@ -11,7 +11,6 @@ int main() {
         arr[i] = rand() % 1000;
         cout << arr[i] << " ";
     }
-    cout << endl;
     for (int i = 5; i > 0; i--) {
         for (int j = 0; j < i - 1; j++) {
             if (arr[j] > arr[j + 1]) {
@@ -21,7 +20,7 @@ int main() {
             }
         }
     }
-    cout << "排序後: ";
+    cout << "\n排序後: ";
     for (int i = 0; i < 5; i++) {
         cout << arr[i] << " ";
     }
