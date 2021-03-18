@@ -15,18 +15,20 @@ int main() {
     cout << endl;
     
     int temp, time = 0;
-    for (int i = 0; i < n; i++) {
+    for (int i = n; i > 0; i--) {
         for (int j = 0; j < i; j++) {
             if (list[i] < list[j]) {
+                // for (int i = 0; i < n; i++) {
+                //     cout << list[i] << endl;
+                // }
+                cout << endl;
+
                 time += 1;
                 temp = list[j];
                 list[j] = list[i];
                 list[i] = temp;
             }
-            // cout << "i為" << i << " j為" << j << endl;
-            // cout << list[j] << endl;
         }
-        //cout << endl;
     }
 
     cout << "結果是" << endl;
