@@ -21,7 +21,7 @@ int main() {
             }
         }
     }
-    cout << "排序後: ";
+    cout << "\n排序後: ";
     for (int i = 0; i < 5; i++) {
         cout << arr[i] << " ";
     }
