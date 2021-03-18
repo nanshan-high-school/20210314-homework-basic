@@ -6,11 +6,9 @@ int main() {
     int arr[5] = {};
     int tmp;
     srand(time(0));
-    for (int i = 0; i < 5; i++) {
-        arr[i] = rand() % 1000;
-    }
     cout << "排序前: ";
     for (int i = 0; i < 5; i++) {
+        arr[i] = rand() % 1000;
         cout << arr[i] << " ";
     }
 
